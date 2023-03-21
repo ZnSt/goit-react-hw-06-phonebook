@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
-import { addContact } from 'redux/actions';
+import { addContact } from 'redux/contactsSlice';
 import { FormContainer, FormSt, Input, Btn } from './Form.styled';
 
 export const Form = () => {
